@@ -1,0 +1,15 @@
+# Python 3.10+ · Windows con WSL / Linux (instalar.sh)
+numpy>=2.0
+opencv-python-headless>=4.10,<5   # OpenCV 5 ya no trae los detectores Haar que usa editor-anuncios
+scipy>=1.13
+pillow>=10
+requests>=2.31
+python-docx>=1.1
+# Whisper local: faster-whisper (en Mac se usa mlx-whisper)
+faster-whisper>=1.1; sys_platform != "darwin"
+# en Mac la visión es Vision de Apple (los .swift); en Windows/Linux, estas (plataforma/*.py)
+mediapipe>=0.10.14; sys_platform != "darwin"
+rapidocr_onnxruntime>=1.2; sys_platform != "darwin"
+# mediapipe y rapidocr traen su propia copia de OpenCV: todas en 4.x para que no gane la 5 (sin detectores Haar)
+opencv-contrib-python<5; sys_platform != "darwin"
+opencv-python<5; sys_platform != "darwin"

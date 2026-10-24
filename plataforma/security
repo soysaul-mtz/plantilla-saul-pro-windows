@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Llavero para Windows (WSL) y Linux: imita el comando `security` de macOS que usa el sistema para guardar llaves.
+# Cada llave es un archivo privado (permiso 600, solo tu usuario) en ~/.config/sistema-edicion/llaves/<servicio>.
+# Soporta: find-generic-password -s S [-w] · add-generic-password [-a A] -s S [-l L] -w VALOR [-U] · delete-generic-password -s S
+set -e
+DIR="${XDG_CONFIG_HOME:-$HOME/.config}/sistema-edicion/llaves"
+cmd="$1"; shift || true
+S=""; W=""; MOSTRAR=0
+while [ $# -gt 0 ]; do
+  case "$1" in
+    -s) S="$2"; shift 2 ;;
+    -w) if [ "$cmd" = "add-generic-password" ] && [ $# -ge 2 ] && [ "${2#-}" = "$2" ]; then W="$2"; shift 2; else MOSTRAR=1; shift; fi ;;
+    -a|-l|-D|-c|-C|-j) shift 2 ;;
+    *) shift ;;
+  esac
+done
+[ -n "$S" ] || { echo "security: falta -s <servicio>" >&2; exit 2; }
+F="$DIR/$(printf %s "$S" | tr '/ ' '__')"
+case "$cmd" in
+  find-generic-password)
+    [ -f "$F" ] || { echo "security: The specified item could not be found in the keychain." >&2; exit 44; }
+    if [ "$MOSTRAR" = 1 ]; then cat "$F"; echo; else echo "keychain: \"$DIR\""; echo "    \"svce\"<blob>=\"$S\""; fi ;;
+  add-generic-password)
+    if [ -z "$W" ]; then read -r -s -p "password data for new item: " W; echo >&2; read -r -s -p "retype password for new item: " W2; echo >&2
+      [ "$W" = "$W2" ] || { echo "security: las contraseñas no coinciden" >&2; exit 1; }; fi
+    mkdir -p "$DIR"; chmod 700 "$DIR"; umask 077; printf %s "$W" > "$F"; chmod 600 "$F" ;;
+  delete-generic-password)
+    [ -f "$F" ] || { echo "security: The specified item could not be found in the keychain." >&2; exit 44; }
+    rm -f "$F" ;;
+  *) echo "security (compatibilidad Linux): solo find/add/delete-generic-password" >&2; exit 2 ;;
+esac

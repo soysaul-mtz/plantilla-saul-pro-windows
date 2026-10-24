@@ -1,0 +1,241 @@
+{
+ "handle": "@tu_usuario",
+ "cola": 0.9,
+ "musica": {
+  "archivo": "../../estilo-cine/sfx/musica_shaking.mp3",
+  "desde": 65.6,
+  "vol": 0.32,
+  "vol_drop": 0.5,
+  "silencio": [
+   14.98,
+   15.3
+  ]
+ },
+ "escenas": [
+  {
+   "visual": "logos",
+   "logo": "instagram",
+   "tema": "oscuro",
+   "hf": "01_instagram",
+   "grupos": [
+    {
+     "y": 0.74,
+     "lineas": [
+      "-Publicas en",
+      "Instagram…"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "logos",
+   "logo": "tiktok",
+   "tema": "oscuro",
+   "hf": "02_tiktok",
+   "trans": "whip",
+   "grupos": [
+    {
+     "y": 0.74,
+     "lineas": [
+      "-en",
+      "TikTok…"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "logos",
+   "logo": "youtube",
+   "tema": "oscuro",
+   "hf": "03_youtube",
+   "trans": "whip",
+   "grupos": [
+    {
+     "y": 0.74,
+     "lineas": [
+      "-en",
+      "YouTube…"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "silueta",
+   "tema": "oscuro",
+   "hf": "04_silueta",
+   "trans": "glitch",
+   "pelicula": true,
+   "grupos": [
+    {
+     "y": 0.52,
+     "lineas": [
+      "-y nadie",
+      "te ve."
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "ojo",
+   "tema": "claro",
+   "hf": "05_ojo",
+   "trans": "flash",
+   "grupos": [
+    {
+     "y": 0.3,
+     "lineas": [
+      "-No es el",
+      "algoritmo."
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "telefonos",
+   "parte": 0,
+   "tema": "claro",
+   "hf": "06_telefonos",
+   "trans": "zoom",
+   "grupos": [
+    {
+     "y": 0.45,
+     "lineas": [
+      "-Es que tu video",
+      "se ve igual",
+      "*que otros mil."
+     ],
+     "velo": true
+    }
+   ]
+  },
+  {
+   "visual": "telefonos",
+   "parte": 1,
+   "tema": "oscuro",
+   "hf": "07_dedo",
+   "trans": "drop",
+   "grupos": [
+    {
+     "y": 0.17,
+     "lineas": [
+      "-Lo que se ve",
+      "distinto,"
+     ]
+    },
+    {
+     "y": 0.17,
+     "lineas": [
+      "-detiene",
+      "el dedo."
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "moneda",
+   "tema": "oscuro",
+   "hf": "08_moneda",
+   "trans": "pan",
+   "grupos": [
+    {
+     "y": 0.17,
+     "lineas": [
+      "-Y lo que detiene",
+      "el dedo…"
+     ]
+    },
+    {
+     "y": 0.83,
+     "lineas": [
+      "~vende."
+     ]
+    }
+   ]
+  }
+ ],
+ "marcas": {
+  "impacto": "vende.",
+  "tap": "dedo."
+ },
+ "sfx": [
+  {
+   "f": "../../estilo-cine/sfx/whoosh_grave.mp3",
+   "en": 0.3,
+   "pico": 0.8,
+   "vol": 0.55
+  },
+  {
+   "f": "../../estilo-cine/sfx/whoosh_rapido.mp3",
+   "en": 1.76,
+   "pico": 0.35,
+   "vol": 0.5
+  },
+  {
+   "f": "../../estilo-cine/sfx/whoosh_rapido.mp3",
+   "en": 2.98,
+   "pico": 0.35,
+   "vol": 0.5
+  },
+  {
+   "f": "../../estilo-cine/sfx/glitch_corto.mp3",
+   "en": 4.23,
+   "pico": 0.25,
+   "vol": 0.45
+  },
+  {
+   "f": "../../estilo-cine/sfx/whoosh_grave.mp3",
+   "en": 5.56,
+   "pico": 0.8,
+   "vol": 0.55
+  },
+  {
+   "f": "../../estilo-cine/sfx/whoosh_rapido.mp3",
+   "en": 7.0,
+   "pico": 0.35,
+   "vol": 0.5
+  },
+  {
+   "f": "../../estilo-cine/sfx/boom.mp3",
+   "en": 10.14,
+   "pico": 0.5,
+   "vol": 0.8
+  },
+  {
+   "f": "../../estilo-cine/sfx/glitch_pulso.mp3",
+   "en": 10.14,
+   "pico": 0.9,
+   "vol": 0.3
+  },
+  {
+   "f": "../../estilo-cine/sfx/glitch_corto.mp3",
+   "en": 12.19,
+   "pico": 0.25,
+   "vol": 0.3
+  },
+  {
+   "f": "../../estilo-cine/sfx/whoosh_grave.mp3",
+   "en": 13.08,
+   "pico": 0.8,
+   "vol": 0.5
+  },
+  {
+   "f": "../../estilo-cine/sfx/moneda.mp3",
+   "en": 15.1,
+   "pico": 2.2,
+   "vol": 0.45
+  },
+  {
+   "f": "../../estilo-cine/sfx/riser.mp3",
+   "en": 15.27,
+   "pico": 2.15,
+   "vol": 0.55
+  },
+  {
+   "f": "../../estilo-cine/sfx/boom.mp3",
+   "en": 15.27,
+   "pico": 0.5,
+   "vol": 1.0
+  }
+ ],
+ "nombre": "Tu nombre"
+}

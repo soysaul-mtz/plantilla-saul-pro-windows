@@ -1,0 +1,22 @@
+{
+ "arriba": [
+  0,
+  0,
+  1080,
+  262
+ ],
+ "abajo": [
+  0,
+  1540,
+  1080,
+  1920
+ ],
+ "derecha": [
+  900,
+  700,
+  1080,
+  1920
+ ],
+ "bordes_laterales_px": 42,
+ "nota": "Medido de capturas de Saúl (19 oct 2026). arriba: estado+Reels/Amigos; abajo: usuario+Seguir, descripción, 'No me interesa/Me interesa', barra; derecha: like/comentar/repost/enviar/guardar"
+}

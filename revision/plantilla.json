@@ -1,0 +1,18 @@
+{
+ "_nota": "Valores por defecto de la plantilla. Cada proyecto.json puede cambiar cualquiera (mismo nombre).",
+ "zona_segura": {"x0": 42, "x1": 900, "y0": 262, "y1": 1540, "botones_y": 700,
+                 "_nota": "Reels de Instagram, medido en iPhone (1080x1920): arriba la barra, abajo usuario/descripción, a la derecha los botones desde y=700"},
+ "pausa_max": 0.35,
+ "_pausa_max": "segundos de silencio máximos dentro de un corte; las pausas más largas se recortan solas",
+ "duracion_max": null,
+ "_duracion_max": "segundos máximos del video final (la persona lo dice); el plan avisa si se pasa",
+ "min_pagina": 0.9,
+ "_min_pagina": "un subtítulo nunca dura menos que esto en pantalla: si es más corto, entra antes o se une al siguiente",
+ "_voz_corte_lufs": "cada corte se nivela a la mediana de todos los cortes antes de unirlos (que la voz no brinque); poner un número en proyecto.json para fijarlo",
+ "lufs": -14,
+ "_lufs": "volumen final del video (estándar de redes)",
+ "cola": 0.6,
+ "_cola": "segundos de imagen REAL después de la última palabra; el fundido empieza justo antes de que termine de hablar",
+ "transicion": {"sigma": 18, "dur": 0.22},
+ "_transicion": "desenfoque en cada corte (sin zoom): fuerza y duración total"
+}

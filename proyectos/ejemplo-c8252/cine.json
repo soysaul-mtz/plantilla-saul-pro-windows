@@ -1,0 +1,412 @@
+{
+ "handle": "@tu_usuario",
+ "fps": "24000/1001",
+ "cola": 0.7,
+ "voz": "corte/cam.mov",
+ "salida": "salida/Video editado - C8252.mp4",
+ "persona": {
+  "cuadros": "cuadros_pro",
+  "mascaras": "mascaras",
+  "crudos": "cuadros",
+  "n": 1068,
+  "fondo": "real"
+ },
+ "cortes": [
+  4.8,
+  7.049,
+  12.679,
+  17.221,
+  21.651,
+  21.816,
+  21.855,
+  24.566,
+  28.276,
+  30.366,
+  34.995,
+  41.086
+ ],
+ "musica": {
+  "archivo": "../../estilo-cine/sfx/musica_shaking.mp3",
+  "desde": 58.44,
+  "vol": 0.2,
+  "vol_drop": 0.26,
+  "drop": 17.26,
+  "bajar": [
+   [
+    7.029,
+    12.699,
+    0.35
+   ]
+  ]
+ },
+ "marcas": {
+  "impacto": -9,
+  "tap": -9
+ },
+ "sfx_auto": true,
+ "sfx": [
+  {
+   "f": "../../estilo-cine/sfx/boom.mp3",
+   "en": 1.42,
+   "pico": 0.5,
+   "vol": 0.5
+  },
+  {
+   "f": "../../estilo-cine/sfx/boom.mp3",
+   "en": 4.28,
+   "pico": 0.5,
+   "vol": 0.55
+  },
+  {
+   "f": "../../estilo-cine/sfx/glitch_corto.mp3",
+   "en": 4.28,
+   "pico": 0.25,
+   "vol": 0.35
+  },
+  {
+   "f": "../../estilo-cine/sfx/rec.mp3",
+   "en": 21.720000000000002,
+   "pico": 0.05,
+   "vol": 0.4
+  },
+  {
+   "f": "../../estilo-cine/sfx/listo.mp3",
+   "en": 33.22,
+   "pico": 0.05,
+   "vol": 0.5
+  },
+  {
+   "f": "../../estilo-cine/sfx/listo.mp3",
+   "en": 39.96,
+   "pico": 0.05,
+   "vol": 0.4
+  }
+ ],
+ "escenas": [
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "golpe": 1.42,
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-Todos tus videos",
+      "los estás haciendo"
+     ]
+    },
+    {
+     "y": 0.2,
+     "detras": true,
+     "lineas": [
+      "mal"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "guion",
+   "tema": "claro",
+   "trans": "whip",
+   "sello": 4.28,
+   "grupos": [
+    {
+     "y": 0.2,
+     "lineas": [
+      "-porque estás usando",
+      "inteligencia artificial"
+     ]
+    },
+    {
+     "y": 0.2,
+     "lineas": [
+      "-para hacer tus",
+      "guiones"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "logos",
+   "tema": "oscuro",
+   "trans": "zoom",
+   "logos": [
+    {
+     "marca": "google",
+     "en": 4.76
+    }
+   ],
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-y no lo digo yo,",
+      "lo dice la"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-ex directora de",
+      "Google."
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "clip",
+   "tema": "oscuro",
+   "trans": "flash",
+   "clip": {
+    "dir": "clip/cuadros",
+    "n": 135,
+    "nombre": "Eloísa Wolf",
+    "cargo": "Ex directora de Google",
+    "fuente": "Sinergéticos Podcast #547",
+    "centroY": 900
+   },
+   "grupos": [
+    {
+     "y": 0.2,
+     "lineas": [
+      "-yo no hago guiones con",
+      "inteligencia artificial."
+     ]
+    },
+    {
+     "y": 0.2,
+     "lineas": [
+      "-he visto que",
+      "ya no funciona"
+     ]
+    },
+    {
+     "y": 0.2,
+     "lineas": [
+      "-porque la gente",
+      "se sabe todo."
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "trans": "glitch",
+   "grupos": [
+    {
+     "y": 0.2,
+     "detras": true,
+     "lineas": [
+      "-Hacer guiones en",
+      "2026"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-con inteligencia artificial es",
+      "*lo peor",
+      "-que puedes hacer."
+     ]
+    }
+   ],
+   "sfxDesfase": 0.15
+  },
+  {
+   "visual": "laptop",
+   "tema": "claro",
+   "trans": "drop",
+   "img": "laptop",
+   "modoPantalla": "timeline",
+   "pantalla": [
+    [
+     246,
+     1292
+    ],
+    [
+     1134,
+     1278
+    ],
+    [
+     1148,
+     1838
+    ],
+    [
+     262,
+     1862
+    ]
+   ],
+   "grupos": [
+    {
+     "y": 0.2,
+     "lineas": [
+      "-Sin embargo, lo que sí",
+      "debes delegar"
+     ]
+    },
+    {
+     "y": 0.2,
+     "lineas": [
+      "-a la inteligencia artificial es",
+      "la parte de la edición"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "trans": "flash",
+   "visor": true,
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-Tú solo deberías",
+      "preocuparte,"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-¿por qué cosas vas a decir",
+      "en cámara?"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "trans": "whip",
+   "antesDespues": true,
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-y la inteligencia artificial",
+      "se va a encargar"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-de que se vea",
+      "*bonito",
+      "-y bien ese video."
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "trans": "zoom",
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-Ahora, editar un video con",
+      "inteligencia artificial,"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-la verdad es que es",
+      "*muy fácil,"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "contador",
+   "tema": "oscuro",
+   "trans": "pan",
+   "lleno": 33.22,
+   "grupos": [
+    {
+     "y": 0.72,
+     "lineas": [
+      "-de hecho, este video está",
+      "100|100% %|"
+     ]
+    },
+    {
+     "y": 0.72,
+     "lineas": [
+      "-editado con",
+      "inteligencia artificial"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "trans": "flash",
+   "cta": {
+    "en": 38.18,
+    "texto": "VIDEO"
+   },
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-y si quieres editar todos",
+      "tus videos"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-de esta",
+      "misma manera,"
+     ]
+    },
+    {
+     "y": 0.2,
+     "detras": true,
+     "lineas": [
+      "-escríbeme la palabra",
+      "video|VIDEO"
+     ]
+    }
+   ]
+  },
+  {
+   "visual": "persona",
+   "tema": "oscuro",
+   "trans": "glitch",
+   "dm": {
+    "en": 39.96,
+    "texto": "📩 Aquí está tu prompt 🎬",
+    "archivo": 41.22
+   },
+   "grupos": [
+    {
+     "y": 0.7,
+     "lineas": [
+      "-y te lo envío por",
+      "mensaje directo"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-el prompt exacto",
+      "que yo utilizo"
+     ]
+    },
+    {
+     "y": 0.7,
+     "lineas": [
+      "-para editar este",
+      "y todos mis videos."
+     ]
+    }
+   ]
+  }
+ ]
+}

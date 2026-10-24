@@ -1,0 +1,8 @@
+{
+ "nombre": "Tu nombre",
+ "handle": "@tu_usuario",
+ "carpeta_contenido": "/ruta/a/tu/carpeta/de/videos",
+ "idioma": "es",
+ "perfil_salida_por_defecto": "redes",
+ "nota": "Copia este archivo a config/kit.json y llénalo (instalar.sh te lo pregunta). Claude lo lee para poner tu nombre y usuario en los videos."
+}

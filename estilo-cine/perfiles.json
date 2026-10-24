@@ -1,0 +1,21 @@
+{
+ "redes": {
+  "nombre": "Redes (1080)",
+  "escala": 1,
+  "cuadros": "cuadros_pro",
+  "bloque": 0,
+  "jpeg": 94,
+  "video": ["-c:v", "libx264", "-preset", "medium", "-crf", "20", "-maxrate", "16M", "-bufsize", "32M", "-pix_fmt", "yuv420p"],
+  "nota": "1080x1920, lo normal para Instagram/TikTok. Render de un solo tirón."
+ },
+ "4k": {
+  "nombre": "4K",
+  "escala": 2,
+  "cuadros": "cuadros_pro_4k",
+  "bloque": 240,
+  "jpeg": 92,
+  "prioridad": 10,
+  "video": ["-c:v", "hevc_videotoolbox", "-b:v", "45M", "-maxrate", "60M", "-bufsize", "90M", "-tag:v", "hvc1", "-pix_fmt", "yuv420p", "-allow_sw", "1"],
+  "nota": "2160x3840. Se edita y se revisa en 1080 (copia ligera); solo el render final usa los cuadros 4K. Render por bloques de 240 cuadros (se recarga la página entre bloques para liberar memoria y se puede reanudar), codificador de hardware HEVC de la Mac y prioridad baja para que la compu siga usable."
+ }
+}

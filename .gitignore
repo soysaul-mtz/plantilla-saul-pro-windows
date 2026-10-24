@@ -1,0 +1,13 @@
+.DS_Store
+.venv
+__pycache__/
+bin/
+config/kit.json
+estilo-cine/sfx
+node_modules
+plataforma/modelos/
+proyectos/*/corte
+proyectos/*/cuadros*
+proyectos/*/mascaras
+proyectos/*/salida
+revision/bin/

@@ -1,0 +1,10 @@
+{
+  "voz": {
+    "nombre": "Fernando Martínez - Rapid, Persuasive",
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "modelo": "eleven_multilingual_v2",
+    "ajustes": { "stability": 0.5, "similarity_boost": 0.75, "style": 0.0, "use_speaker_boost": true, "speed": 1.0 }
+  },
+  "video": { "ancho": 1080, "alto": 1920, "fps": 30, "cola": 0.5 },
+  "audio": { "lufs": -14, "musica": "", "musica_db": -11 }
+}

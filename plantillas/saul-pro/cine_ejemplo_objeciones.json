@@ -1,0 +1,490 @@
+{
+ "handle": "@tu_usuario",
+ "fps": "24000/1001",
+ "cola": 0.5,
+ "voz": "corte/cam.mov",
+ "salida": "<tu carpeta de contenido>/Objeciones/Video 1/Video editado - Video 1.mp4",
+ "persona": {
+  "cuadros": "cuadros_pro",
+  "mascaras": "mascaras",
+  "crudos": "cuadros",
+  "n": 1364,
+  "fondo": "real",
+  "bajar": 0,
+  "zoomAlt": 1.05
+ },
+ "cortes": [],
+ "musica": {
+  "archivo": "../../estilo-cine/sfx/musica_theories.mp3",
+  "desde": 16.0,
+  "vol": 0.24,
+  "vol_drop": 0.24,
+  "drop": 999,
+  "ducking": {
+   "threshold": 0.05,
+   "ratio": 3
+  }
+ },
+ "marcas": {
+  "impacto": -9,
+  "tap": -9
+ },
+ "sfx_auto": true,
+ "escenas": [
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "pregunta": {
+    "en": 0.25,
+    "fin": 2.45,
+    "texto": "A mí no me sirve la IA, no es para mi negocio",
+    "y": 470
+   },
+   "grupos": [],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "drop",
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-Esto que acaba de pasar es una",
+      "pinche locura."
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "cabrón."
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-Pero literalmente toda esta empresa de",
+      "diseño|la empresa del cliente energéticos|"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-está implementando",
+      "IA"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-para hacer",
+      "*todo su contenido."
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "chips": {
+    "items": [
+     {
+      "en": 13.08,
+      "icono": "🎬",
+      "texto": "Ediciones"
+     },
+     {
+      "en": 13.92,
+      "icono": "🖼️",
+      "texto": "Carruseles"
+     },
+     {
+      "en": 14.4,
+      "icono": "🤖",
+      "texto": "Todo con IA"
+     }
+    ],
+    "y": 0.2,
+    "fin": 16.6,
+    "junta": 999
+   },
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-Y justo parecía|pareciera el| uso| real|irreal"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-pero hasta la|las sedición|ediciones, de| los carrusales|carruseles,"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-todo lo está haciendo con",
+      "IA"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "absolutamente."
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "zoom",
+   "grupos": [
+    {
+     "y": 0.15,
+     "lineas": [
+      "-Y esto|eso solo me|nos lo|deja dejo|algo",
+      "muy claro."
+     ],
+     "detras": true
+    }
+   ],
+   "textoTema": "claro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-Hoy en día quien no se|usa",
+      "utilizaría|IA,"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-sean",
+      "editores,"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-todo el trabajo",
+      "~manual"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-realmente ya no va|vale a|",
+      "valer| nada"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-como tal. O sea,"
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "pixel": {
+    "en": 31.0,
+    "fin": 32.4,
+    "lineas": [
+     "GAME",
+     "OVER"
+    ],
+    "y": 1080
+   },
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-el que no se|usa puede|IA",
+      "usar|"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-y el que no lo implemente en su",
+      "negocio"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-prácticamente va a quedar",
+      "fuera del juego,"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-va a quedar fuera del",
+      "mercado"
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "chips": {
+    "items": [
+     {
+      "en": 33.18,
+      "icono": "⚡",
+      "texto": "Respuesta rápida"
+     },
+     {
+      "en": 34.34,
+      "icono": "⚡",
+      "texto": "Actualización rápida"
+     }
+    ],
+    "y": 0.2,
+    "fin": 36.6,
+    "junta": 999
+   },
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-porque por la respuesta tan",
+      "rápida"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-y la actualización tan",
+      "rápida"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-que otros negocios van a",
+      "tener."
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-Así que si tú eres un",
+      "empresario,"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-un",
+      "emprendedor"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-que piensa que en su negocio realmente no le va a",
+      "funcionar"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-este tema de herramientas",
+      "digitales,"
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "logos",
+   "tema": "oscuro",
+   "trans": "whip",
+   "logos": [
+    {
+     "marca": "claude",
+     "en": 43.25
+    },
+    {
+     "marca": "openai",
+     "en": 43.62
+    },
+    {
+     "marca": "googlegemini",
+     "en": 44.0
+    }
+   ],
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-herramientas con",
+      "inteligencia artificial,"
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "drop",
+   "bn": 44.72,
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-lamento decirte que estás",
+      "*fuera del juego."
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  },
+  {
+   "visual": "persona",
+   "tema": "claro",
+   "trans": "whip",
+   "cta": {
+    "en": 52.8,
+    "texto": "ENSÉÑAME"
+   },
+   "dm": {
+    "en": 56.0,
+    "texto": "📩 Te enseño a usar IA de a de veras"
+   },
+   "grupos": [
+    {
+     "y": 0.745,
+     "lineas": [
+      "-Ahora, si quieres aprender a usar",
+      "ya|IA"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-para tu negocio, para tu",
+      "emprendimiento,"
+     ]
+    },
+    {
+     "y": 0.745,
+     "lineas": [
+      "-para que exponencialicen|exponencialices lo que ya",
+      "eres,"
+     ]
+    },
+    {
+     "y": 0.6,
+     "lineas": [
+      "-mandame|mándame un",
+      "saludo|mensaje"
+     ]
+    },
+    {
+     "y": 0.6,
+     "lineas": [
+      "-y te voy a enseñar cómo utilizar",
+      "ya|IA"
+     ]
+    },
+    {
+     "y": 0.6,
+     "lineas": [
+      "-de adveras,|a_de_veras,",
+      "*no de jugar.|juguete."
+     ]
+    }
+   ],
+   "textoTema": "oscuro"
+  }
+ ],
+ "sfx": [
+  {
+   "f": "../../estilo-cine/sfx/glitch_pulso.mp3",
+   "en": 31.0,
+   "pico": 0.05,
+   "vol": 0.35
+  },
+  {
+   "f": "../../estilo-cine/sfx/listo.mp3",
+   "en": 56.0,
+   "pico": 0.05,
+   "vol": 0.4
+  },
+  {
+   "f": "../../estilo-cine/sfx/tic.mp3",
+   "en": 0.25,
+   "pico": 0.01,
+   "vol": 0.35
+  },
+  {
+   "f": "../../estilo-cine/sfx/tic.mp3",
+   "en": 13.08,
+   "pico": 0.01,
+   "vol": 0.25
+  },
+  {
+   "f": "../../estilo-cine/sfx/tic.mp3",
+   "en": 13.92,
+   "pico": 0.01,
+   "vol": 0.25
+  },
+  {
+   "f": "../../estilo-cine/sfx/tic.mp3",
+   "en": 14.4,
+   "pico": 0.01,
+   "vol": 0.25
+  },
+  {
+   "f": "../../estilo-cine/sfx/tic.mp3",
+   "en": 33.18,
+   "pico": 0.01,
+   "vol": 0.25
+  },
+  {
+   "f": "../../estilo-cine/sfx/tic.mp3",
+   "en": 34.34,
+   "pico": 0.01,
+   "vol": 0.25
+  }
+ ]
+}
