@@ -1,16 +1,6 @@
 {
  "handle": "@tu_usuario",
  "cola": 0.9,
- "musica": {
-  "archivo": "../../estilo-cine/sfx/musica_shaking.mp3",
-  "desde": 65.6,
-  "vol": 0.32,
-  "vol_drop": 0.5,
-  "silencio": [
-   14.98,
-   15.3
-  ]
- },
  "escenas": [
   {
    "visual": "logos",

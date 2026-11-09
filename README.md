@@ -7,16 +7,19 @@ por cuadro antes de entregártelo.
 
 Ejemplo terminado: **"Video editado - C8252.mp4"** en la sección *Releases* de este repositorio.
 
+## Instálala con un solo mensaje
+
+Abre Claude (la app de escritorio en la pestaña **Code**, o Claude Code en Visual Studio Code) y pega:
+
+> Revisa que mi Windows tenga Ubuntu (WSL); si no, enséñame el comando para instalarlo y pídeme permiso. Luego, dentro de Ubuntu, clona https://github.com/soysaul-mtz/plantilla-saul-pro-windows en ~/proyectos, entra a la carpeta y corre scripts/requisitos.sh. Si falta algo, enséñame el comando que imprime y pídeme permiso antes de instalarlo. Cuando todo esté listo, lee el CLAUDE.md del repo y renderiza el video de ejemplo (proyectos/demo) para probar que funciona.
+
+Para Mac: https://github.com/soysaul-mtz/plantilla-saul-pro
+
 ## Requisitos
 **Windows 10/11** con WSL (Ubuntu, gratis de Microsoft) · 16 GB de RAM recomendados · ~12 GB libres · un plan de Claude que
 incluya **Claude Code** (Pro o Max). También funciona en Linux. (¿Tienes Mac? Pide la versión para Mac.)
 
-## Instalación (Claude lo hace por ti)
-Lo más fácil: sigue la **guía PDF para Windows**. En resumen:
-1. Abre PowerShell como administrador y corre `wsl --install -d Ubuntu`; reinicia y abre **Ubuntu** (crea tu usuario y contraseña).
-2. En Ubuntu instala Claude Code: `curl -fsSL https://claude.ai/install.sh | bash`, cierra, vuelve a abrir y escribe `claude`.
-3. Arrastra la guía PDF a la ventana y escribe **"Instala la plantilla siguiendo este PDF"**. Claude descarga la plantilla en
-   `~/plantilla-saul-pro`, te pide pegar un comando con tu contraseña de Ubuntu y al final renderiza un video de prueba.
+Si prefieres hacerlo paso a paso: **INSTALAR.md**.
 
 ## Cómo se usa
 Abre Ubuntu, escribe `cd ~/plantilla-saul-pro && claude` y pídele: *"Edita este video con Saúl Pro: está en mi Escritorio, se llama video.mp4"*.

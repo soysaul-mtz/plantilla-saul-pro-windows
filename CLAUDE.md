@@ -3,7 +3,17 @@
 Este repositorio trae **una sola plantilla de edición: Saúl Pro** (reel vertical de marca personal con look de cine). No hay
 otras plantillas: si la persona pide otro estilo, dile que este paquete solo trae Saúl Pro (el sistema completo tiene 61; ver README).
 
-Si no está instalado (falta `.venv`, `bin/segmentar` o `config/kit.json`), sigue **INSTALAR.md** antes de nada.
+## Instalación (con el prompt de la guía) · todo corre dentro de Ubuntu (WSL)
+1. En Windows: `powershell -ExecutionPolicy Bypass -File scripts\requisitos.ps1` (o `wsl -l -q`). Si no hay Ubuntu, enséñale
+   `wsl --install -d Ubuntu`, pídele permiso, y dile que reinicie y abra Ubuntu una vez para crear su usuario.
+2. Dentro de Ubuntu (`wsl -d Ubuntu -- bash -lc '…'`): el repo va en `~/proyectos/plantilla-saul-pro-windows`. Corre `scripts/requisitos.sh`.
+   Si marca ✗, **enséñale el comando que imprime y pídele permiso**. `sudo ./instalar.sh --sistema` pide SU contraseña de
+   Ubuntu: pídele que lo pegue ella en la terminal de Ubuntu. Repite `scripts/requisitos.sh` hasta «Todo listo».
+3. Si falta `config/kit.json`, pregúntale su nombre y su usuario de Instagram y créalo:
+   `{ "nombre": "…", "handle": "@…", "idioma": "es", "perfil_salida_por_defecto": "redes" }`
+4. **Prueba:** `node estilo-cine/render.mjs proyectos/demo`; el video queda en `proyectos/demo/salida/cine_codigo.mp4`
+   (en Windows: `wslpath -w` de esa ruta; ábrelo con `explorer.exe`).
+Detalle y solución de problemas: INSTALAR.md.
 Los datos de la persona (nombre, @usuario) están en `config/kit.json`: úsalos en cada `cine.json` (`"handle"`).
 
 ## Lo primero que lees
