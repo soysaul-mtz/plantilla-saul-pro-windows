@@ -1,6 +1,6 @@
-# Guía para Claude · Plantilla Saúl Pro
+# Guía para Claude · Plantilla Cinematic Brand
 
-> Esta guía explica **qué es** Saúl Pro y **cómo hacerlo** paso a paso con este sistema. Léela completa antes de editar.
+> Esta guía explica **qué es** Cinematic Brand y **cómo hacerlo** paso a paso con este sistema. Léela completa antes de editar.
 > Rutas relativas a la raíz del sistema. Ejemplo real terminado: `proyectos/ejemplo-c8252/` (su `cine.json`) y el video final
 > en la página de *Releases* del repositorio ("Video editado - C8252.mp4").
 
@@ -103,4 +103,4 @@ Todo desde la raíz del sistema; `.venv/bin/python` es el Python del sistema. Ca
 ## Evita
 - Inventar datos, cifras o pantallas de apps que no existen.
 - Entregar sin la revisión final cuadro por cuadro.
-- Mezclar con otras plantillas: este paquete solo trae Saúl Pro.
+- Mezclar con otras plantillas: este paquete solo trae Cinematic Brand.

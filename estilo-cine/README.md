@@ -20,7 +20,7 @@ Transiciones (`trans`): whip, glitch, flash, zoom, drop, pan. Marcas: `impacto` 
 Voz usada en la prueba: ElevenLabs "Miguel – Deep, Rich and Cinematic" (`k8cFOyAg7B9qwBlDDNTC`), eleven_multilingual_v2.
 Las escenas visuales (logos, silueta, ojo, telefonos, moneda) están en `cine.js`; un guion nuevo con otras metáforas necesita escenas nuevas.
 
-## Con video de una persona (plantillas "Saúl Pro" y "Saúl Pro 3D")
+## Con video de una persona (plantillas "Cinematic Brand" y "Cinematic Brand 3D")
 Todo desde la raíz del repositorio (`.venv/bin/python` = el Python del sistema):
 ```
 # 1. corte: metodo.json con la cámara y los tramos elegidos (ver plantillas/saul-pro-3d/metodo_base.json)

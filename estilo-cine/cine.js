@@ -2310,7 +2310,7 @@ function capasPersona(s, t, f, m, cam) {
 
 // ---------- escena: editor de código (VS Code) con Claude Code en la terminal ----------
 // escena.vscode = { escribe, banner, pestanas: [t, t] }
-const CODIGO = [['import', 'cine'], ['const', 'edit = await claude(video)'], ['//', 'plantilla: Saúl Pro'], ['export', 'function render() {'], ['  ', 'return montaje(cortes, subtitulos)'], ['}', ''], ['', ''], ['const', 'agente = nuevoAgente("ventas")'], ['await', 'agente.responder(cliente)']];
+const CODIGO = [['import', 'cine'], ['const', 'edit = await claude(video)'], ['//', 'Cinematic Brand'], ['export', 'function render() {'], ['  ', 'return montaje(cortes, subtitulos)'], ['}', ''], ['', ''], ['const', 'agente = nuevoAgente("ventas")'], ['await', 'agente.responder(cliente)']];
 function renderVSCode(s, t, lt) {
   const V = s.vscode; g.fillStyle = '#0b0b0f'; g.fillRect(0, 0, W, H);
   const k = eOut4(clamp(lt / .45)), x = 50, y = 300 + (1 - k) * 80, w = 980, h = 940;
@@ -2552,9 +2552,9 @@ function uiClaudeCode(U, t) {
     ly += 22 + ph * esc2 + 20;
     g.strokeStyle = 'rgba(224,122,82,.7)'; g.lineWidth = 2; g.beginPath(); g.roundRect(x + 28, ly, w - 56, 62, 12); g.stroke();
     g.fillStyle = '#e07a52'; g.font = `600 25px Menlo, monospace`; g.fillText('>', x + 46, ly + 40);
-    g.fillStyle = '#fff'; g.font = `500 23px Menlo, monospace`; g.fillText(escribe('Edita mi video con el estilo Saúl Pro', t, U.pedido, 24), x + 76, ly + 40);
+    g.fillStyle = '#fff'; g.font = `500 23px Menlo, monospace`; g.fillText(escribe('Edita mi video con Cinematic Brand', t, U.pedido, 24), x + 76, ly + 40);
     ly += 100;
-    const L = [['✻', 'Analizando video…', '#e07a52'], ['⏺', 'Leyendo corte.mov · 1:30', '#9cdcfe'], ['⏺', 'Aplicando plantilla Saúl Pro', '#9cdcfe'], ['⏺', 'Subtítulos + animaciones', '#9cdcfe'], ['✓', 'Listo: Video editado.mp4', '#4ec9b0']];
+    const L = [['✻', 'Analizando video…', '#e07a52'], ['⏺', 'Leyendo corte.mov · 1:30', '#9cdcfe'], ['⏺', 'Aplicando Cinematic Brand', '#9cdcfe'], ['⏺', 'Subtítulos + animaciones', '#9cdcfe'], ['✓', 'Listo: Video editado.mp4', '#4ec9b0']];
     L.forEach(([ic, tx2, col], i) => { const k = clamp((t - U.respuesta - i * .45) / .2); if (k <= 0) return; g.save(); g.globalAlpha *= k; g.fillStyle = col; g.font = `600 23px Menlo, monospace`; g.fillText(ic, x + 32, ly + i * 38); g.fillStyle = '#d4d4d4'; g.font = `500 22px Menlo, monospace`; g.fillText(tx2, x + 66, ly + i * 38); g.restore(); });
   }
   g.restore();

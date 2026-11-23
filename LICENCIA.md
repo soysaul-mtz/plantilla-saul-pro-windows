@@ -1,4 +1,4 @@
-# Licencia — Plantilla Saúl Pro (gratuita)
+# Licencia — Plantilla Cinematic Brand (gratuita)
 
 © 2026 Saúl Martínez (@soysaul_mtz).
 

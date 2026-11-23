@@ -1,7 +1,7 @@
-# Plantilla Saúl Pro · instrucciones para Claude
+# Plantilla Cinematic Brand · instrucciones para Claude
 
-Este repositorio trae **una sola plantilla de edición: Saúl Pro** (reel vertical de marca personal con look de cine). No hay
-otras plantillas: si la persona pide otro estilo, dile que este paquete solo trae Saúl Pro (el sistema completo tiene 61; ver README).
+Este repositorio trae **una sola plantilla de edición: Cinematic Brand** (reel vertical de marca personal con look de cine). No hay
+otras plantillas: si la persona pide otro estilo, dile que este paquete solo trae Cinematic Brand (el sistema completo tiene 61; ver README).
 
 ## Instalación (con el prompt de la guía) · todo corre dentro de Ubuntu (WSL)
 1. En Windows: `powershell -ExecutionPolicy Bypass -File scripts\requisitos.ps1` (o `wsl -l -q`). Si no hay Ubuntu, enséñale
@@ -17,7 +17,7 @@ Detalle y solución de problemas: INSTALAR.md.
 Los datos de la persona (nombre, @usuario) están en `config/kit.json`: úsalos en cada `cine.json` (`"handle"`).
 
 ## Lo primero que lees
-**`plantillas/saul-pro/GUIA.md`**: qué es Saúl Pro, el flujo paso a paso con los comandos, el formato de `cine.json`, todas las
+**`plantillas/saul-pro/GUIA.md`**: qué es Cinematic Brand, el flujo paso a paso con los comandos, el formato de `cine.json`, todas las
 reglas aprendidas y qué evitar. El ejemplo real está en `proyectos/ejemplo-c8252/` (y el video final en *Releases*).
 
 ## Qué hay aquí
@@ -54,3 +54,8 @@ La GUIA nació en Mac; aquí todo se usa IGUAL (mismos comandos, `.venv/bin/pyth
 
 ## Seguridad
 Las llaves (Higgsfield, ElevenLabs…) se guardan con el comando `security` en `~/.config/sistema-edicion/llaves/` (archivos privados), nunca en el código ni en el chat. No publiques nada en redes sin que la persona confirme.
+
+## Nombres de las plantillas
+- **Cinematic Brand** es el nombre actual de la plantilla que antes se llamaba «Saúl Pro» (y **Cinematic Brand 3D**, la que era «Saúl Pro 3D»). **Whiteboard Pro** es la que antes se llamaba «Dani Pro».
+- Son las mismas plantillas: si la persona usa el nombre anterior, úsala igual y no la corrijas.
+- Las carpetas y claves internas conservan el nombre viejo (`saul-pro`, `saul-pro-3d`, `dani-pro`): no las renombres.

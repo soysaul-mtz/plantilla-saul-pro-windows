@@ -1,6 +1,6 @@
-# Plantilla Saúl Pro · edición de video con IA (gratis) · Windows
+# Plantilla Cinematic Brand · edición de video con IA (gratis) · Windows
 
-Edita tus reels con **Claude Code** en el estilo **Saúl Pro**: tú hablando con tu fondo real y un filtro de piel sutil, texto
+Edita tus reels con **Claude Code** en el estilo **Cinematic Brand**: tú hablando con tu fondo real y un filtro de piel sutil, texto
 palabra por palabra (chico + gigante, incluso detrás de tu cabeza), escenas animadas que ilustran lo que dices, textura de
 película, música y efectos. Claude encuentra tus mejores tomas, te muestra un plan paso a paso, edita y revisa el video cuadro
 por cuadro antes de entregártelo.
@@ -22,12 +22,12 @@ incluya **Claude Code** (Pro o Max). También funciona en Linux. (¿Tienes Mac? 
 Si prefieres hacerlo paso a paso: **INSTALAR.md**.
 
 ## Cómo se usa
-Abre Ubuntu, escribe `cd ~/plantilla-saul-pro && claude` y pídele: *"Edita este video con Saúl Pro: está en mi Escritorio, se llama video.mp4"*.
+Abre Ubuntu, escribe `cd ~/plantilla-saul-pro && claude` y pídele: *"Edita este video con Cinematic Brand: está en mi Escritorio, se llama video.mp4"*.
 Te pregunta la música (una carpeta con tus canciones o un conector de música), la duración máxima y la palabra para tu CTA,
 te enseña el plan y edita cuando le dices "sí".
 
 ## ¿Quieres más?
-Esta es 1 de las **61 plantillas** del *Sistema de edición de video con IA* (Saúl Pro 3D, testimoniales, anuncios con retomas,
+Esta es 1 de las **61 plantillas** del *Sistema de edición de video con IA* (Cinematic Brand 3D, testimoniales, anuncios con retomas,
 reacciones, original vs editado, Editor 1–50…). Escríbeme por Instagram **@soysaul_mtz**.
 
 ## Licencia

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Revisa (dentro de Ubuntu / WSL) que esté todo lo que usa la plantilla Saúl Pro y dice el comando EXACTO para lo que falte.
+# Revisa (dentro de Ubuntu / WSL) que esté todo lo que usa la plantilla Cinematic Brand y dice el comando EXACTO para lo que falte.
 # No instala nada solo. Uso: scripts/requisitos.sh   (desde la carpeta de la plantilla)
 cd "$(dirname "$0")/.."; export PATH="$HOME/.local/bin:$PATH"; falta=0
 si() { printf "\033[32m✓\033[0m %s\n" "$1"; }

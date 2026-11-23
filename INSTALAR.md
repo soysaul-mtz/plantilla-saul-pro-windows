@@ -14,7 +14,7 @@ Esta es la versión para **Windows con WSL (Ubuntu)** (también sirve en Linux).
    herramientas de visión (MediaPipe/OpenCV/RapidOCR, las equivalentes a Vision de Mac), el motor, efectos y la skill.
    Si no pudo preguntar nombre y @usuario, pregúntaselos y crea `config/kit.json`.
 4. **Prueba:** `./verificar.sh` (renderiza `proyectos/demo`; tarda unos 3–4 minutos) y dile dónde verlo en Windows (la ruta que imprime).
-5. **Enséñale a usarlo:** que abra Ubuntu, escriba `cd ~/plantilla-saul-pro && claude` y pida "Edita este video con Saúl Pro: …".
+5. **Enséñale a usarlo:** que abra Ubuntu, escriba `cd ~/plantilla-saul-pro && claude` y pida "Edita este video con Cinematic Brand: …".
    Sus videos de Windows están en `/mnt/c/Users/<usuario>/` (Escritorio = `Desktop`, Descargas = `Downloads`). Desde ahí sigue
    `CLAUDE.md` y lee completa `plantillas/saul-pro/GUIA.md`.
 6. **Opcional:** música (una carpeta con sus canciones o el conector de Epidemic Sound en claude.ai → Conectores) e imágenes con IA

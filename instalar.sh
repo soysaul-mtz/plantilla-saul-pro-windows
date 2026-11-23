@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Instalador de la plantilla Saúl Pro para WINDOWS (con WSL, Ubuntu) y Linux. (La versión para Mac es otro repositorio.)
+# Instalador de la plantilla Cinematic Brand para WINDOWS (con WSL, Ubuntu) y Linux. (La versión para Mac es otro repositorio.)
 # Uso:  ./instalar.sh              instala todo lo de tu usuario (se puede correr varias veces)
 #       sudo ./instalar.sh --sistema   programas del sistema (ffmpeg, Node, Chrome, fuentes…); pide tu contraseña
 # Si faltan programas del sistema, el instalador te dice el comando exacto para pegarlo TÚ en la terminal de Ubuntu.

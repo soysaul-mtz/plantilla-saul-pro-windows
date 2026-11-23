@@ -1,9 +1,9 @@
 ---
 name: plantilla-saul-pro
-description: Edita reels verticales con la plantilla Saúl Pro (persona con su fondo real, texto palabra por palabra chico + gigante y detrás de la cabeza, escenas animadas con código, textura de película, música y CTA). Úsala cuando la persona pase un video para editar "con Saúl Pro" o pida un reel de marca personal con este estilo.
+description: Edita reels verticales con la plantilla Cinematic Brand (persona con su fondo real, texto palabra por palabra chico + gigante y detrás de la cabeza, escenas animadas con código, textura de película, música y CTA). Úsala cuando la persona pase un video para editar "con Cinematic Brand" o pida un reel de marca personal con este estilo.
 ---
 
-# Plantilla Saúl Pro
+# Plantilla Cinematic Brand
 
 1. Abre y sigue `CLAUDE.md` de la carpeta de la plantilla (ruta al final de este archivo) y, antes de editar, lee completa
    `plantillas/saul-pro/GUIA.md` (qué es, flujo con comandos, formato de `cine.json`, reglas y qué evitar).
